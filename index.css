@@ -1,0 +1,51 @@
+.video-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding-top: 20%;
+  z-index: 2;
+}
+
+#player {
+  z-index: 1;
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: white;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 10;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 5000;
+  text-align: center;
+  cursor: pointer;
+}
+
+button {
+  background-color: tomato; /* Green */
+  border: none;
+  color: white;
+  padding: 9px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#popup.parts {
+  width: 100px;
+  height: 100px;
+}
